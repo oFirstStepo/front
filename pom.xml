@@ -52,13 +52,6 @@
 			<resource>
 				<directory>src/main/config</directory>
 			</resource>
-			<resource>
-				<directory>src/main/resources</directory>
-			</resource>
-			<!-- 测试用,发布时删除 -->
-			<resource>
-				<directory>src/test/resources</directory>
-			</resource>
 		</resources>
 
 		<!-- 插件 -->
