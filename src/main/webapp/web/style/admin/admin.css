@@ -1,0 +1,27 @@
+* {
+	font-size: 12px;
+	font-family: Tahoma, Verdana, Î¢ÈíÑÅºÚ, ĞÂËÎÌå
+}
+
+body {
+	background: #D2E0F2;
+}
+
+a {
+	color: Black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: Red;
+	text-decoration: underline;
+}
+
+.footer {
+	text-align: center;
+	color: #15428B;
+	margin: 0px;
+	padding: 0px;
+	line-height: 23px;
+	font-weight: bold;
+}

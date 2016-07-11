@@ -1,0 +1,12 @@
+.icon {
+	padding: 2px 9px;
+	background: url('icons/tabicons.png') no-repeat;
+}
+
+.icon-sys {
+	background: url('icons/directory.png') no-repeat center center;
+}
+
+.icon-nav {
+	background-position: -100px -18px;
+}

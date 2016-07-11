@@ -1,0 +1,40 @@
+#accordion ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+}
+
+#accordion ul li {
+	padding: 0px;
+}
+
+#accordion ul li a {
+	line-height: 24px;
+}
+
+#accordion ul li div {
+	margin: 2px 0px;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+
+#accordion ul li div.hover {
+	border: 1px dashed #99BBE8;
+	background: #E0ECFF;
+	cursor: pointer;
+}
+
+#accordion ul li div.hover a {
+	color: #416AA3;
+}
+
+#accordion ul li div.selected {
+	border: 1px solid #99BBE8;
+	background: #E0ECFF;
+	cursor: default;
+}
+
+#accordion ul li div.selected a {
+	color: #416AA3;
+	font-weight: bold;
+}
