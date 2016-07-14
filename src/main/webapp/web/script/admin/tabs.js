@@ -20,19 +20,26 @@ function createTabs() {
  * 添加标签
  * 
  * @param title
- * @param content
+ * @param url
  * @returns
  */
-function addTab(title, content) {
+function addTab(title, url) {
 
 	if ($("#tabs").tabs("getTab", title)) {
 
 		$("#tabs").tabs("select", title);
 	} else {
 
+		var content = [];
+		content.push("<div style='height:100%;overflow-y: hidden;'>");
+		content.push("<iframe src='");
+		content.push(url);
+		content.push("' width='100%' height='100%'></iframe>");
+		content.push("</div>");
+
 		$("#tabs").tabs("add", {
 			title : title,
-			content : content,
+			content : content.join(""),
 			closable : true
 		});
 	}

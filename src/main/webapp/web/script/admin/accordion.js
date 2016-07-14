@@ -37,7 +37,7 @@ function createAccordion() {
 		selected : false,
 		children : [ {
 			text : "0号蔬菜大棚",
-			url : ""
+			url : "http://localhost:8080/web/template/admin/admin.html"
 		}, {
 			text : "1号蔬菜大棚",
 			url : ""
