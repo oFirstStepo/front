@@ -53,6 +53,9 @@ function createAccordion() {
 		}, {
 			text : "视频",
 			url : "/web/template/video/camera/camera.html"
+		}, {
+			text : "chars",
+			url : "/web/template/chars/index.html"
 		}]
 	}, {
 		iconCls : "icon-sys",
