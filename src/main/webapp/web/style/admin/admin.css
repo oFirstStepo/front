@@ -17,11 +17,29 @@ a:hover {
 	text-decoration: underline;
 }
 
-.footer {
+.header {
+	color: #fff;
+	background: url(image/north-bg.gif) #7f99be repeat-x center 50%;
+	height: 100%;
+}
+
+.logo {
+	background: url(image/helper.png) no-repeat center;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
 	text-align: center;
-	color: #15428B;
+	display: inline-block;
+	float:left;
+}
+
+.footer {
 	margin: 0px;
 	padding: 0px;
+	color: #15428B;
+	text-align: center;
 	line-height: 23px;
 	font-weight: bold;
+	text-align: center;
+	background-color: #D2E0F2;
 }

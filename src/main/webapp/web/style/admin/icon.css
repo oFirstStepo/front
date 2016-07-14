@@ -4,9 +4,13 @@
 }
 
 .icon-sys {
-	background: url('icons/directory.png') no-repeat center center;
+	background: url('icons/directory.png') no-repeat center;
 }
 
 .icon-nav {
 	background-position: -100px -18px;
+}
+
+.icon-signout {
+	background: url('icons/signout.png') no-repeat center;
 }

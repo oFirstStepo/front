@@ -1,0 +1,6 @@
+$(function() {
+
+	createLayout();
+	createAccordion();
+	createTabs();
+})
