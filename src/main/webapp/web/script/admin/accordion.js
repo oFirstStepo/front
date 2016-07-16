@@ -47,7 +47,7 @@ function createAccordion() {
 		}, {
 			text : "3号蔬菜大棚",
 			url : ""
-		} , {
+		}, {
 			text : "地图",
 			url : "/web/template/map/map.html"
 		}, {
@@ -56,7 +56,7 @@ function createAccordion() {
 		}, {
 			text : "chars",
 			url : "/web/template/chars/index.html"
-		}]
+		} ]
 	}, {
 		iconCls : "icon-sys",
 		title : "专家服务",
