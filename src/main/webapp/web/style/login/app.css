@@ -10,3 +10,17 @@ body {
 	position: relative;
 	z-index: 9999;
 }
+
+.content {
+	margin: 20px;
+	text-align: center;
+}
+
+.content h1 {
+	font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti,
+		MingLiu;
+}
+
+.form {
+	padding: 30px 60px;
+}
